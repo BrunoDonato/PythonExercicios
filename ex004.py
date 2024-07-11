@@ -1,0 +1,8 @@
+x = input('Digite qualquer coisa: ')
+print('Abaixo temos uma lista com informações sobre o que você digitou:')
+print('Tipo da variavel: ', type(x))
+print('Digitou somente letras? {}'.format(x.isalpha()))
+print('Digitou somente números? {}'.format(x.isnumeric()))
+print('Digitou algo alfanumérico? {}'.format(x.isalnum()))
+print('Digitou somente letras maiusculas? {}'.format(x.isupper()))
+print('Digitou somente letras minúsculas? {}'.format(x.islower()))

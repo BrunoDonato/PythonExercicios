@@ -9,4 +9,4 @@ for c in range(1, 8):
         totalmenor += 1
     else:
         totalmaior += 1
-print('No total, tivemos {} menores de idade, e {} pessoasdemaior maiores de idade.'.format(totalmenor, totalmaior))
+print('No total, tivemos {} menores de idade, e {} pessoas maiores de idade.'.format(totalmenor, totalmaior))
